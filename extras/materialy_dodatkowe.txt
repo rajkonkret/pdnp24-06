@@ -116,3 +116,8 @@ spam -= 1    spam = spam - 1
 spam *= 1    spam = spam * 1
 spam /= 1    spam = spam / 1
 spam %= 1    spam = spam % 1
+
+https://github.com/rajkonkret/pdnp24-06
+https://www.onlinegdb.com/
+https://www.hackerrank.com/
+https://www.w3schools.com/python/default.asp
