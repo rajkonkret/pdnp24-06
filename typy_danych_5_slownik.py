@@ -42,6 +42,26 @@ dict_small.update([('y', 3), ('z', 4)])
 print(dict_small)  # {'x': 2, 'y': 3, 'z': 4}
 
 # input() - pobiera dane od uzytkownika
-tekst = input("Wpisz tekst")  # zwraca <class 'str'>
-print(type(tekst))
-print(tekst)
+# tekst = input("Wpisz tekst")  # zwraca <class 'str'>
+# print(type(tekst))
+# print(tekst)
+
+# napisac program słownik pol-ang
+# zbior danych - slownik
+# wyswietlic klucze
+# pobrac słówko od uzytkownika
+# wypisac tłumaczenie
+
+# pol_ang = {'kot': 'cat', 'pies': 'dog', 'jabłko': 'apple'}
+# print("słówka do przetłumaczenia", pol_ang.keys())
+# tekst = input("Podaj słowko")
+# print(pol_ang[tekst.lower().replace(" ", "")])
+# strip() - usunięcie spacji i białych znaków
+
+# aplikacja kalkulator
+# pobrac liczby od użytkownika
+# wypisac wynik obliczenia np.: dodawanie
+a = input("Podaj pierwsza liczbę")  # str
+b = input("Podaj drugą liczbę")
+print(a + b)  # to byłaby konkatenacja
+print(int(a) + float(b))  # zrzutowane na liczby i obliczenie matematyczne
