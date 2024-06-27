@@ -12,8 +12,8 @@ def dodaj2():
     print(a + b)  # uzyje globalnych
 
 
-def dodaj3():
-    global a
+def doddaj3():
+    global a  # korzystamy ze zminnej globalnej
     a = 9
     b = 11
     print(a + b)
