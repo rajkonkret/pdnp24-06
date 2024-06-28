@@ -45,3 +45,4 @@ for p in lista_pracownicy:
     print(f"Pensja {p.imie} {p.nazwisko} wynosi {p.oblicz_pensje()}")
 # Pensja Jan Kowalski wynosi 5000
 # Pensja Anna Nowak wynosi 8000
+# pydoc -w .\kl6.py dokumentacja klasy w html
